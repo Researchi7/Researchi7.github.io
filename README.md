@@ -2,7 +2,7 @@
 
 Next.js构建并且部署在Vercel上。
 
-<!-- ![vscode-portfolio banner](https://imgur.com/YTNNknY.png) -->
+![vscode-portfolio banner](./public/readme.png)
 
 ## 环境变量
 
