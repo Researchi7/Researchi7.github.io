@@ -21,14 +21,14 @@ const explorerItems = [
     icon: 'cpp_icon.svg',
   },
   {
-    name: 'projects.py',
+    name: 'posts.py',
     path: '/projects',
     icon: 'py_icon.svg',
   },
   {
-    name: 'papers.json',
+    name: 'articals.go',
     path: '/papers',
-    icon: 'json_icon.svg',
+    icon: 'go_icon.svg',
   },
   {
     name: 'github.md',

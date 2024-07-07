@@ -4,7 +4,7 @@ import styles from '../styles/PapersPage.module.css';
 const PapersPage = ({ papers }) => {
   return (
     <>
-      <h3>My Publications</h3>
+      <h3>My Literary Notes</h3>
       <br/>
       <hr/>
       <div className={styles.container}>
@@ -23,7 +23,7 @@ const PapersPage = ({ papers }) => {
                   rel="noopener noreferrer"
                   className={styles.underline}
                 >
-                  Read Paper
+                  Read More
                 </a>
               </div>
             </div>
