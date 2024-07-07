@@ -15,7 +15,7 @@ const PapersPage = ({ papers }) => {
               <p><strong>Abstract:</strong> {paper.abstract}</p>
               <p><strong>Conference:</strong> {paper.conference}</p>
               <p><strong>Year:</strong> {paper.year}</p>
-              <p><strong>Citations:</strong> {paper.citations}</p>
+              <p><strong>Likes:</strong> {paper.likes}</p>
               <div className={styles.cta}>
                 <a
                   href={paper.link}

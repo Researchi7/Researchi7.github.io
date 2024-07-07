@@ -31,22 +31,22 @@ const ContactCode = () => {
         </p>
       {contactItems.slice(0, 8).map((item, index) => (
         <p className={styles.line} key={index}>
-          &nbsp;&nbsp;&nbsp;{item.social}:{' '}
+          &nbsp;&nbsp;&nbsp;{item.social}{' '}
           <a href={item.href} target="_blank" rel="noopener">
-            {item.link}
+            {item.link}&#59;
           </a>
         </p>
       ))}
       {contactItems.slice(8, contactItems.length).map((item, index) => (
         <p className={styles.line} key={index}>
-          &nbsp;&nbsp;&nbsp;{item.social}:{' '}
+          &nbsp;&nbsp;&nbsp;{item.social}{' '}
           <a href={item.href} target="_blank" rel="noopener">
-            {item.link}
+            {item.link}&#59;
           </a>
         </p>
       ))}
       <p className={styles.line}>
-        &#125;
+        &#125;&#59;
       </p>
       <p className={styles.line}>
       </p>
