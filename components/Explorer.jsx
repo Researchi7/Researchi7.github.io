@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
+import { useRouter } from 'next/router';
 import ChevronRight from '../components/icons/ChevronRight';
 import styles from '../styles/Explorer.module.css';
 
@@ -39,6 +40,7 @@ const explorerItems = [
 
 const Explorer = () => {
   const [portfolioOpen, setPortfolioOpen] = useState(true);
+  const router = useRouter();
 
   return (
     <div className={styles.explorer}>
@@ -64,7 +66,7 @@ const Explorer = () => {
         >
           {explorerItems.map((item) => (
             <Link href={item.path} key={item.name}>
-              <div className={styles.file}>
+              <div className={`${styles.file} ${router.pathname === item.path && styles.active}`}>
                 <Image
                   src={`/${item.icon}`}
                   alt={item.name}

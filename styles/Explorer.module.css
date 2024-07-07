@@ -6,6 +6,11 @@
   border-right: 1px solid var(--explorer-border);
 }
 
+.active {
+  background: var(--tab-active-bg);
+  border-bottom: none;
+}
+
 .title {
   padding: 0.5rem 0.75rem;
   font-weight: 300;
