@@ -8,26 +8,20 @@ export default function HomePage() {
     <>
       <div className={styles.container}>
         <div className={styles.background}>
-          <h1>AI</h1>
-          <h1>Research</h1>
+          <h1>Balanced</h1>
+          <h1>Life</h1>
         </div>
         <div className={styles.foreground}>
           <div className={styles.content}>
-            <h1 className={styles.name}>Kostas Georgiou</h1>
-            <h6 className={styles.bio}>AI Research Engineer</h6>
+            <h1 className={styles.name}>Chi Xing</h1>
+            <h6 className={styles.bio}>Problem Solver</h6>
             <div className={styles.cardContainer}>
               <div className={styles.card}>
                 <div className={styles.content}>
-                  <h4>Skill Set</h4>
+                  <h4>Interest Point</h4>
                   <div className={styles.tags}>
                     <span key='Research' className='Research'>
-                      Research
-                    </span>
-                    <span key='Computer-Vision' className='Computer-Vision'>
-                      Computer-Vision
-                    </span>
-                    <span key='MIM' className='MIM'>
-                      Masked-Image-Modeling
+                      NLP
                     </span>
                     <span key='LLMs' className='LLMs'>
                       LLMs
@@ -36,25 +30,28 @@ export default function HomePage() {
                       Generative AI
                     </span>
                     <span key='PyTorch' className='PyTorch'>
-                      PyTorch
+                      Algorithm Research
                     </span>
-                    <span key='Tensorflow' className='Tensorflow'>
-                      Tensorflow
+                    <span key='Computer-Vision' className='Computer-Vision'>
+                      PU'ER(普洱)
                     </span>
                     <span key='Apache-Spark' className='Apache-Spark'>
-                      Apache-Spark
+                      High Performance Computing
                     </span>
                     <span key='SQL' className='SQL'>
-                      SQL
+                      CUDA
                     </span>
-                    <span key='MLOps' className='MLOps'>
-                      MLOps
+                    <span key='Tensorflow' className='Tensorflow'>
+                      BERT & GPT
                     </span>
                     <span key='Software-Design' className='Software-Design'>
-                      Software-Engineering
+                      Software Architecture
+                    </span>
+                    <span key='MIM' className='MIM'>
+                      Ph.Gemult(心学研究)
                     </span>
                     <span key='Bots' className='Bots'>
-                      Bots
+                      Multi-Agent
                     </span>
                   </div>
                 </div>
@@ -78,7 +75,7 @@ export default function HomePage() {
                 src="/me.jpeg"
                 width={300}
                 height={300}
-                alt="Kostas' Picture"
+                alt="Chi's Picture"
               />
             </div>
 

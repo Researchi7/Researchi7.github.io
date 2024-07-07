@@ -16,9 +16,9 @@ const explorerItems = [
     icon: 'html_icon.svg',
   },
   {
-    name: 'contact.yml',
+    name: 'contact.cpp',
     path: '/contact',
-    icon: 'yml_icon.svg',
+    icon: 'cpp_icon.svg',
   },
   {
     name: 'projects.py',

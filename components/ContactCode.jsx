@@ -3,8 +3,8 @@ import styles from '../styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'Email',
-    link: 'georgiou.kostas94@gmail.com',
-    href: 'mailto:georgiou.kostas94@gmail.com',
+    link: 'chi.xing@liverpool.ac.uk',
+    href: 'mailto:chixing@liverpool.ac.uk',
   },
   {
     social: 'LinkedIn',
@@ -13,23 +13,13 @@ const contactItems = [
   },
   {
     social: 'GitHub',
-    link: 'github.com/drkostas',
-    href: 'https://github.com/drkostas',
-  },
-  {
-    social: 'Google Scholar',
-    link: 'scholar.google.com/<gkos>',
-    href: 'https://scholar.google.com/citations?user=b___QQ8AAAAJ&hl=en&authuser=1&oi=sra',
-  },
-  {
-    social: 'PyPi',
-    link: 'pypi.org/user/drkostas',
-    href: 'https://pypi.org/user/drkostas/',
+    link: 'github.com/MartinRepo',
+    href: 'https://github.com/MartinRepo',
   },
   {
     social: 'Website',
-    link: 'gkos.dev',
-    href: 'https://gkos.dev',
+    link: 'martinspace.top',
+    href: 'https://martinspace.top',
   },
 ];
 
