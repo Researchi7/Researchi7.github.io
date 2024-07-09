@@ -40,7 +40,7 @@ const sidebarTopItems = [
 const sidebarBottomItems = [
   {
     Icon: AccountIcon,
-    path: '/resume',
+    path: '/aboutMe',
   },
   {
     Icon: SettingsIcon,
