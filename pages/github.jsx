@@ -1,10 +1,10 @@
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import GitHubCalendar from 'react-github-calendar';
 import RepoCard from '../components/RepoCard';
 import styles from '../styles/GithubPage.module.css';
 
 const GithubPage = ({ repos, user }) => {
-  // console.log(repos);
   const theme = {
     level0: '#161B22',
     level1: '#0e4429',
@@ -12,6 +12,23 @@ const GithubPage = ({ repos, user }) => {
     level3: '#26a641',
     level4: '#39d353',
   };
+
+  const [hideColorLegend, setHideColorLegend] = useState(false);
+  useEffect(() => {
+    const checkScreenWidth = () => {
+      if (window.innerWidth < 1100) {
+        setHideColorLegend(true);
+      } else {
+        setHideColorLegend(false);
+      }
+    };
+
+    checkScreenWidth();
+    window.addEventListener('resize', checkScreenWidth);
+    return () => {
+      window.removeEventListener('resize', checkScreenWidth);
+    };
+  }, []);
 
   return (
     <>
@@ -48,7 +65,7 @@ const GithubPage = ({ repos, user }) => {
           <GitHubCalendar
             username={process.env.NEXT_PUBLIC_GITHUB_USERNAME}
             theme={theme}
-            hideColorLegend
+            hideColorLegend={hideColorLegend}
           // hideMonthLabels
           />
         </div>

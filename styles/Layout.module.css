@@ -11,7 +11,7 @@
   color: var(--text-color);
   font-family: 'JetBrains Mono', monospace;
   flex: 1;
-  height: 90vh;
+  height: calc(90vh - 30px - 25px);
   overflow-y: auto;
 }
 
