@@ -26,3 +26,21 @@
   width: 100%;
   margin: 0 auto;
 }
+
+.alert {
+  display: none;
+}
+
+@media only screen and (max-width: 1100px) {
+  .pdfContainer {
+    display: none;
+  }
+  
+  .alert {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
