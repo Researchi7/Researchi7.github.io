@@ -44,22 +44,35 @@
 }
 
 .minimize {
-  background: #f1fa8c;
+  background: rgb(255, 193, 7);
   margin-left: auto;
 }
 
 .maximize {
-  background: #50fa7b;
+  background: rgb(52, 199, 89);
 }
 
 .close {
-  background: #ff5555;
+  background: rgb(255, 69, 58);
 }
 
 @media screen and (max-width: 900px) {
   .items p {
     display: none;
   }
+  
+  .maximize {
+    display: none;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .minimize {
+    display: none;
+  }
+
   .title {
     flex: 4;
   }
