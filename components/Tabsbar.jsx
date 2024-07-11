@@ -1,16 +1,16 @@
 import Tab from './Tab';
 import styles from '../styles/Tabsbar.module.css';
 
-const Tabsbar = () => {
+const Tabsbar = ({ setLoading }) => {
   return (
     <div className={styles.tabs}>
-      <Tab icon="/react_icon.svg" filename="home.jsx" path="/" />
-      <Tab icon="/html_icon.svg" filename="resume.html" path="/resume" />
-      <Tab icon="/py_icon.svg" filename="posts.py" path="/projects" />
-      <Tab icon="/go_icon.svg" filename="articals.go" path="/papers" />
-      <Tab icon="/cpp_icon.svg" filename="contact.cpp" path="/contact" />
-      <Tab icon="/git_icon.svg" filename="github.git" path="/github" />
-      <Tab icon="/markdown_icon.svg" filename="readme.md" path="/aboutMe" />
+      <Tab setLoading={setLoading} icon="/react_icon.svg" filename="home.jsx" path="/" />
+      <Tab setLoading={setLoading} icon="/html_icon.svg" filename="resume.html" path="/resume" />
+      <Tab setLoading={setLoading} icon="/py_icon.svg" filename="posts.py" path="/projects" />
+      <Tab setLoading={setLoading} icon="/go_icon.svg" filename="articals.go" path="/papers" />
+      <Tab setLoading={setLoading} icon="/cpp_icon.svg" filename="contact.cpp" path="/contact" />
+      <Tab setLoading={setLoading} icon="/git_icon.svg" filename="github.git" path="/github" />
+      <Tab setLoading={setLoading} icon="/markdown_icon.svg" filename="readme.md" path="/aboutMe" />
     </div>
   );
 };

@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import Titlebar from '../components/Titlebar';
 import Sidebar from '../components/Sidebar';
 import Explorer from '../components/Explorer';
@@ -6,6 +7,7 @@ import Tabsbar from './Tabsbar';
 import styles from '../styles/Layout.module.css';
 
 const Layout = ({ children }) => {
+  const [loading, setLoading] = useState(false);
   return (
     <>
       <Titlebar />
@@ -13,7 +15,8 @@ const Layout = ({ children }) => {
         <Sidebar />
         <Explorer />
         <div style={{ width: '100%' }}>
-          <Tabsbar />
+          <Tabsbar setLoading={setLoading} />
+          {loading && <div className={styles.loader}></div>}
           <main className={styles.content}>{children}</main>
         </div>
       </div>
