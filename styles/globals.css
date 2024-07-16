@@ -17,27 +17,27 @@
   background: rgba(238, 89, 3, 0.25);
 }
 
-.OpenCV {
+.Llama-cpp {
   border: 0.1rem solid rgb(50, 85, 213);
 }
 
-.OpenCV:hover {
+.Llama-cpp:hover {
   background: rgba(50, 85, 213, 0.25);
 }
 
-.SegFormer {
+.Generative-AI {
   border: 0.1rem solid rgb(0, 0, 0);
 }
 
-.SegFormer:hover {
+.Generative-AI:hover {
   background: rgba(0, 0, 0, 0.25);
 }
 
-.Semantic-Segmentation {
+.Generative-AI {
   border: 0.1rem solid rgb(234, 69, 184);
 }
 
-.Semantic-Segmentation:hover {
+.Generative-AI:hover {
   background: rgba(234, 69, 184, 0.25);
 }
 

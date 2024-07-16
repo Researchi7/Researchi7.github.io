@@ -8,9 +8,9 @@ import styles from '../styles/ProjectsPage.module.css';
 const ProjectsPage = ({ ml_projects, bots_projects, pypi_projects, misc_projects }) => {
   return (
     <>
-      <h3>Open Source Projects</h3>
+      <h3>Posts</h3>
       <br/>
-      <center><h4>Machine Learning</h4></center>
+      <center><h4>News</h4></center>
       <hr/>
       <div className={styles.container}>
         {ml_projects.map((project) => (
@@ -18,7 +18,7 @@ const ProjectsPage = ({ ml_projects, bots_projects, pypi_projects, misc_projects
         ))}
       </div>
       <br/>
-      <center><h4>Bots</h4></center>
+      <center><h4>Academic</h4></center>
       <hr/>
       <div className={styles.container}>
         {bots_projects.map((project) => (
@@ -26,7 +26,7 @@ const ProjectsPage = ({ ml_projects, bots_projects, pypi_projects, misc_projects
         ))}
       </div>
       <br/>
-      <center><h4>PyPi Packages</h4></center>
+      <center><h4>Life</h4></center>
       <hr/>
       <div className={styles.container}>
         {pypi_projects.map((project) => (
@@ -34,7 +34,7 @@ const ProjectsPage = ({ ml_projects, bots_projects, pypi_projects, misc_projects
         ))}
       </div>
       <br/>
-      <center><h4>Misc Projects</h4></center>
+      <center><h4>Interesting Tricks</h4></center>
       <hr/>
       <div className={styles.container}>
         {misc_projects.map((project) => (

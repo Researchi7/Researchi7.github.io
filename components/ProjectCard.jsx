@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from '../styles/ProjectCard.module.css';
 
 const ProjectCard = ({ project }) => {
@@ -53,15 +54,12 @@ const ProjectCard = ({ project }) => {
               Paper
             </a>
           )}
-          {project.pypi && (
-            <a
-              href={project.pypi}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.underline}
-            >
-              PyPi
-            </a>
+          {project.fullText && (
+            <Link href={project.fullText} passHref>
+              <a className={styles.underline} rel="noopener noreferrer">
+                Read more
+              </a>
+            </Link>
           )}
         </div>
       </div>

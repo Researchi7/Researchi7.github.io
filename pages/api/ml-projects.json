@@ -1,94 +1,35 @@
 [
   {
     "id": 1,
-    "name": "Cross-scale MAE",
-    "image": "https://i.imgur.com/3zery4d.png",
-    "description": "Official Code of the paper 'Cross-Scale MAE: A Tale of Multi-Scale Exploitation in Remote Sensing'",
-    "tags": ["PyTorch", "MIM", "Computer-Vision"],
-    "source_code": "https://github.com/aicip/Cross-Scale-MAE",
-    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=b___QQ8AAAAJ&authuser=1&citation_for_view=b___QQ8AAAAJ:d1gkVwhDpl0C"
-  
+    "name": "N8CIR Internship🎉",
+    "image": "./n8cir.png",
+    "description": "My first internship in UK!",
+    "tags": ["Llama-cpp", "PyTorch", "Generative-AI"],
+    "fullText": "../aboutMe"
   },
   {
     "id": 2,
-    "name": "Minecraft AI",
-    "image": "https://i.imgur.com/rH7S0M9.png",
-    "description": "A Reinforcement Learning agent that learns how to to solve maze missions in Minecraft.",
-    "tags": ["PyTorch", "Reinforcement-Learning", "Minecraft"],
-    "source_code": "https://github.com/drkostas/Minecraft-AI"
+    "name": "Llama3.cpp Local Deployment",
+    "image": "./llama-cpp.png",
+    "description": "A note of local deployment",
+    "tags": ["Llama-cpp", "PyTorch", "Generative-AI"],
+    "source_code": "https://github.com/MartinRepo",
+    "fullText": "../aboutMe"
   },
   {
     "id": 3,
-    "name": "3D Semantic Segmentation",
-    "image": "https://imgur.com/NtIvxWG.png",
-    "description": "Semantic Segmentation with Transformers on 3D Medical Images.",
-    "tags": ["PyTorch", "OpenCV", "SegFormer", "Semantic-Segmentation", "Medical-Imaging"],
-    "source_code": "https://github.com/drkostas/3D-Semantic-Segmentation"
+    "name": "Graduation Ceremony",
+    "image": "./graduation.jpg",
+    "description": "A note of local deployment",
+    "tags": ["Llama-cpp", "PyTorch", "Generative-AI"],
+    "fullText": "../aboutMe"
   },
   {
     "id": 4,
-    "name": "Transformer-based Question Answering using BERT",
-    "image": "https://imgur.com/dw21deK.png",
-    "description": "BERT-based question answering/reading comprehension methods on Rinehart Novels.",
-    "tags": ["PyTorch", "SpaCy", "HuggingFace", "Transformers", "BERT"],
-    "source_code": "https://github.com/drkostas/Bert-Question-Answering"
-  },
-  {
-    "id": 5,
-    "name": "Accident Severity Prediction",
-    "image": "https://imgur.com/3w7SKLt.png",
-    "description": "Predicting the severity of car accidents from various attributes.",
-    "tags": ["Pandas", "Scipy", "Bayesian-Optimization", "XGBoost", 
-    "Logistic-Regression", "Neural-Network", "K-Means"],
-    "source_code": "https://github.com/drkostas/accident-severity-prediction"
-  },
-  {
-    "id": 6,
-    "name": "Hybrid Girvan Newman",
-    "image": "https://imgur.com/FcIlWzb.png",
-    "description": "Hybrid Girvan Newman. Code for the `A Distributed Hybrid Community Detection Methodology for Social Networks` paper.",
-    "tags": ["Apache-Spark", "Social-Networks", "Community-Detection", "GraphFrames", "MySQL"],
-    "source_code": "https://github.com/drkostas/HGN",
-    "scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=b___QQ8AAAAJ&authuser=1&citation_for_view=b___QQ8AAAAJ:u5HHmVD_uO8C"
-  },
-  {
-    "id": 7,
-    "name": "COVID-19 Vaccination Prediction",
-    "image": "https://imgur.com/uXxzBBC.png",
-    "description": "Simultaneous Time Series Forecasting on the global COVID-19 Daily Vaccinations.",
-    "tags": ["Tensorflow", "LSTMs", "Multivariate-Time-Series"],
-    "source_code": "https://github.com/drkostas/covid19-vaccinations-predict"
-  },
-  {
-    "id": 8,
-    "name": "Instagram Likes Prediction",
-    "image": "https://imgur.com/siwQMhc.png",
-    "description": "First attempt on predicting the likes a photo will get on Instagram.",
-    "tags": ["Tensorflow", "OpenCV", "Instagram", "Scraper", "CNN"],
-    "source_code": "https://github.com/drkostas/Insta-Likes-Predict"
-  },
-  {
-    "id": 9,
-    "name": "Reinforcement Learning - Value Iteration",
-    "image": "https://imgur.com/v0s5gPx.png",
-    "description": "Implementation of value iteration algorithm for calculating an optimal MDP policy.",
-    "tags": ["Markov-Decision-Process", "Value-Iteration", "RL"],
-    "source_code": "https://github.com/drkostas/RL-Value-Iteration"
-  },
-  {
-    "id": 10,
-    "name": "Vanilla Numpy CNN",
-    "image": "https://imgur.com/sNrVbbL.png",
-    "description": "A Vanilla Numpy-only Convolutional Neural Network.",
-    "tags": ["Numpy", "CNN", "Vanilla-Implementation"],
-    "source_code": "https://github.com/drkostas/Numpy-CNN"
-  },
-  {
-    "id": 11,
-    "name": "Vanilla Numpy Neural Network",
-    "image": "https://imgur.com/mm29qlX.png",
-    "description": "A Vanilla Numpy-only Feed-Forward Neural Network.",
-    "tags": ["Numpy", "Neural-Network", "Vanilla-Implementation"],
-    "source_code": "https://github.com/drkostas/Numpy-NeuralNet-1"
+    "name": "UEFA EURO 2024",
+    "image": "./euro2024.jpg",
+    "description": "A note of local deployment",
+    "tags": ["Llama-cpp", "PyTorch", "Generative-AI"],
+    "fullText": "../aboutMe"
   }
 ]
