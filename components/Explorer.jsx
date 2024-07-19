@@ -28,7 +28,7 @@ const explorerItems = [
   },
   {
     name: 'articals.go',
-    path: '/papers',
+    path: '/articals',
     icon: 'go_icon.svg',
   },
   {
