@@ -17,19 +17,19 @@ const explorerItems = [
     icon: 'html_icon.svg',
   },
   {
-    name: 'contact.cpp',
-    path: '/contact',
-    icon: 'cpp_icon.svg',
-  },
-  {
     name: 'posts.py',
     path: '/posts',
     icon: 'py_icon.svg',
   },
   {
-    name: 'articals.go',
-    path: '/articals',
+    name: 'articles.go',
+    path: '/articles',
     icon: 'go_icon.svg',
+  },
+  {
+    name: 'contact.cpp',
+    path: '/contact',
+    icon: 'cpp_icon.svg',
   },
   {
     name: 'github.git',

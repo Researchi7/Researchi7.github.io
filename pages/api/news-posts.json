@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Graduation Ceremony",
     "image": "./graduation.jpg",
-    "description": "A note of local deployment",
+    "description": "Honours! First Class!",
     "tags": ["Llama-cpp", "PyTorch", "Generative-AI"],
     "fullText": "../aboutMe"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "UEFA EURO 2024",
     "image": "./euro2024.jpg",
-    "description": "A note of local deployment",
+    "description": "F**king England",
     "tags": ["Llama-cpp", "PyTorch", "Generative-AI"],
     "fullText": "../aboutMe"
   }
