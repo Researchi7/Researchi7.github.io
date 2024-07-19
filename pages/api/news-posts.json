@@ -9,15 +9,6 @@
   },
   {
     "id": 2,
-    "name": "Llama3.cpp Local Deployment",
-    "image": "./llama-cpp.png",
-    "description": "A note of local deployment",
-    "tags": ["Llama-cpp", "PyTorch", "Generative-AI"],
-    "source_code": "https://github.com/MartinRepo",
-    "fullText": "../aboutMe"
-  },
-  {
-    "id": 3,
     "name": "Graduation Ceremony",
     "image": "./graduation.jpg",
     "description": "A note of local deployment",
@@ -25,7 +16,7 @@
     "fullText": "../aboutMe"
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "UEFA EURO 2024",
     "image": "./euro2024.jpg",
     "description": "A note of local deployment",

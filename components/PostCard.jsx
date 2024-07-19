@@ -1,32 +1,32 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from '../styles/ProjectCard.module.css';
+import styles from '../styles/PostCard.module.css';
 
-const ProjectCard = ({ project }) => {
-  const lowResImageUrl = project.image.replace(/(\.[a-z]+)$/, 'm$1');
+const PostCard = ({ post }) => {
+  const lowResImageUrl = post.image.replace(/(\.[a-z]+)$/, 'm$1');
   return (
     <div className={styles.card}>
-      <Image src={project.image}
+      <Image src={post.image}
         height={300}
         width={600}
         sizes="(max-width: 600px) 100vw, 600px"
         placeholder="blur"
         blurDataURL={lowResImageUrl}
-        alt={project.name} />
+        alt={post.name} />
       <div className={styles.content}>
-        <h3>{project.name}</h3>
-        <p>{project.description}</p>
+        <h3>{post.name}</h3>
+        <p>{post.description}</p>
         <div className={styles.tags}>
-          {project.tags.map((tag) => (
+          {post.tags.map((tag) => (
             <span key={tag} className={tag}>
               {tag}
             </span>
           ))}
         </div>
         <div className={styles.cta}>
-          {project.source_code && (
+          {post.source_code && (
             <a
-              href={project.source_code}
+              href={post.source_code}
               target="_blank"
               rel="noopener noreferrer"
               className={styles.underline}
@@ -34,9 +34,9 @@ const ProjectCard = ({ project }) => {
               Code
             </a>
           )}
-          {project.demo && (
+          {post.demo && (
             <a
-              href={project.demo}
+              href={post.demo}
               target="_blank"
               rel="noopener noreferrer"
               className={styles.underline}
@@ -44,9 +44,9 @@ const ProjectCard = ({ project }) => {
               Demo
             </a>
           )}
-          {project.scholar && (
+          {post.scholar && (
             <a
-              href={project.scholar}
+              href={post.scholar}
               target="_blank"
               rel="noopener noreferrer"
               className={styles.underline}
@@ -54,8 +54,8 @@ const ProjectCard = ({ project }) => {
               Paper
             </a>
           )}
-          {project.fullText && (
-            <Link href={project.fullText} passHref>
+          {post.fullText && (
+            <Link href={post.fullText} passHref>
               <a className={styles.underline} rel="noopener noreferrer">
                 Read more
               </a>
@@ -67,4 +67,4 @@ const ProjectCard = ({ project }) => {
   );
 };
 
-export default ProjectCard;
+export default PostCard;

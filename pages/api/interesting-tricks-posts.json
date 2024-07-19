@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "name": "TuneCraft",
+    "image": "https://imgur.com/9vekJOP.png",
+    "description": "Effortlessly create personalized Spotify playlists with fresh, undiscovered tracks tailored to your taste, by checking all your liked songs and existing playlists to provide you with truly new music.",
+    "tags": ["Spotify", "automation"],
+    "source_code": "https://github.com/drkostas/TuneCraft"
+  }
+]

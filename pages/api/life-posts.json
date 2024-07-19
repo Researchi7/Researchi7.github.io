@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "name": "UEFA EURO 2024",
+    "image": "./euro2024.jpg",
+    "description": "A note of local deployment",
+    "tags": ["Llama-cpp", "PyTorch", "Generative-AI"],
+    "fullText": "../aboutMe"
+  }
+]

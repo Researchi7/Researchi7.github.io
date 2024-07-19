@@ -23,7 +23,7 @@ const explorerItems = [
   },
   {
     name: 'posts.py',
-    path: '/projects',
+    path: '/posts',
     icon: 'py_icon.svg',
   },
   {

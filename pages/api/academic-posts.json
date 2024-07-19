@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "name": "Llama3.cpp Local Deployment",
+    "image": "./llama-cpp.png",
+    "description": "A note of local deployment",
+    "tags": ["Llama-cpp", "PyTorch", "Generative-AI"],
+    "source_code": "https://github.com/MartinRepo",
+    "fullText": "../aboutMe"
+  }
+]

@@ -21,7 +21,7 @@ const sidebarTopItems = [
   },
   {
     Icon: CodeIcon,
-    path: '/projects',
+    path: '/posts',
   },
   {
     Icon: PencilIcon,
