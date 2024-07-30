@@ -4,7 +4,7 @@ const aboutMePage = () => {
     return (
         <div className={styles.container}>
             <h1>Chi Xing</h1>
-            <h3>🪐 A underlying thinker 🤔️</h3>
+            <h3>🪐 An underlying thinker 🤔️</h3>
             <p>Graduated from Liverpool Uni (Honours First Class in Computer Science)</p>
             <p>24 Fall Artificial Intelligence Master in Edinburgh Uni</p>
             <p>⛰️ My Pathway ⛰️</p>
@@ -22,7 +22,7 @@ const aboutMePage = () => {
                 rel="noopener noreferrer" className={styles.underline}>IFLYTEK</a></li>
                 <li>* 2022 Summer Undergraduate Research Fellowship <a href="https://www.xjtlu.edu.cn/en/study/surf/introduction" target="_blank"
                 rel="noopener noreferrer" className={styles.underline}>(SURF)</a> in XJTLU</li>
-                <li>* 2021 Summer Ex-Investment Adviser Assistant at EastMoney</li>
+                <li>* 2021 Summer Ex-Investment Advisor Assistant at EastMoney</li>
             </ul>
             <p>✨ My Interest Points ✨</p>
         </div>
