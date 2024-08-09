@@ -32,7 +32,7 @@ const GithubPage = ({ repos, user }) => {
 
   return (
     <>
-      <a href="https://github.com/drkostas" target="_blank" rel="noopener" className={styles.no_color}>
+      <a href="https://github.com/martinrepo" target="_blank" rel="noopener" className={styles.no_color}>
         <div className={styles.user}>
           <div>
             <Image
@@ -95,7 +95,7 @@ export async function getStaticProps() {
     }
   );
   const additionalRepoRes = await fetch(
-    `https://api.github.com/repos/aicip/Cross-Scale-MAE`,
+    `https://api.github.com/repos/casibase/casibase`,
     {
       headers: {
         Authorization: `token ${process.env.GITHUB_API_KEY}`,
