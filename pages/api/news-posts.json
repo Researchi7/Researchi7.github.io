@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Graduation Ceremony",
     "image": "./graduation.jpg",
-    "description": "Honours! First Class!",
+    "description": "Honours! First Class! Congrats!",
     "tags": ["Llama-cpp", "PyTorch", "Generative-AI"],
     "fullText": "../aboutMe"
   },

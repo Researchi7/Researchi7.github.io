@@ -13,7 +13,9 @@ const ArticlesPage = ({ articles }) => {
             <div className={styles.content}>
               <h3>{article.title}</h3>
               <p><strong>Abstract:</strong> {article.abstract}</p>
-              <p><strong>Conference:</strong> {article.conference}</p>
+              {article.conference && (
+                <p><strong>Conference:</strong> {article.conference}</p>
+              )}
               <p><strong>Year:</strong> {article.year}</p>
               <p><strong>Likes:</strong> {article.likes}</p>
               <div className={styles.cta}>

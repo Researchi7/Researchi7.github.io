@@ -3,8 +3,8 @@ import styles from '../styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'Email',
-    link: 'chi.xing@liverpool.ac.uk',
-    href: 'mailto:chixing@liverpool.ac.uk',
+    link: 'chi.xing2025@gmail.com',
+    href: 'mailto:chixing2025@gmail.com',
   },
   {
     social: 'LinkedIn',
