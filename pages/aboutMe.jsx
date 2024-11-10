@@ -32,6 +32,11 @@ const aboutMePage = () => {
                 <li>Machine Learning and Pattern Recognition</li>
                 <li>Machine Learning System</li>
             </ul>
+            <ul className={styles.pathwayList}>
+                <li>LLM Safety</li>
+                <li>Machine Learning and Pattern Recognition</li>
+                <li>Machine Learning System</li>
+            </ul>
         </div>
     );
 }
