@@ -21,7 +21,7 @@ export default function HomePage() {
                   <h4>Interest Point</h4>
                   <div className={styles.tags}>
                     <span key='Research' className='Research'>
-                      NLP
+                      Uncertainty Quantification
                     </span>
                     <span key='LLMs' className='LLMs'>
                       LLMs
@@ -30,7 +30,7 @@ export default function HomePage() {
                       Generative AI
                     </span>
                     <span key='PyTorch' className='PyTorch'>
-                      Algorithm Research
+                      PyTorch
                     </span>
                     <span key='Computer-Vision' className='Computer-Vision'>
                       PU'ER(普洱)
@@ -42,7 +42,7 @@ export default function HomePage() {
                       CUDA
                     </span>
                     <span key='Tensorflow' className='Tensorflow'>
-                      BERT & GPT
+                      Machine Learning System
                     </span>
                     <span key='Software-Design' className='Software-Design'>
                       Software Architecture

@@ -27,15 +27,10 @@ const aboutMePage = () => {
                 <li>* 2021 Summer &#124; Ex-Investment Advisor Assistant at EastMoney</li>
             </ul>
             <p>✨ My Interest Points ✨</p>
-            <ul>
-                <li>LLM Safety</li>
-                <li>Machine Learning and Pattern Recognition</li>
-                <li>Machine Learning System</li>
-            </ul>
             <ul className={styles.pathwayList}>
-                <li>LLM Safety</li>
-                <li>Machine Learning and Pattern Recognition</li>
+                <li>Uncertainty Quantification</li>
                 <li>Machine Learning System</li>
+                <li>Machine Learning and Pattern Recognition</li>
             </ul>
         </div>
     );
