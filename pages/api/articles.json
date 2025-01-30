@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "title": "Conformal Prediction",
+    "likes": 2,
+    "year": 2025,
+    "abstract": "Something about uncertainty quantification",
+    "link": "https://scholar.google.com/"
+  },
+  {
+    "id": 2,
     "title": "Llama-3-70B Quatisation Note",
     "likes": 2,
     "year": 2024,
@@ -8,7 +16,7 @@
     "link": "https://scholar.google.com/"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "N8CIR Bede Internship Note",
     "likes": 2,
     "year": 2024,
@@ -16,19 +24,11 @@
     "link": "https://scholar.google.com/"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "饮茶笔记",
     "likes": 15,
     "year": 2023,
     "abstract": "普洱入门玩家...",
-    "link": "https://scholar.google.com/"
-  },
-  {
-    "id": 4,
-    "title": "High Performance Computing",
-    "likes": 2,
-    "year": 2019,
-    "abstract": "SLURM using note",
     "link": "https://scholar.google.com/"
   }
 ]
