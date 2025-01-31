@@ -25,7 +25,7 @@ const PostsPage = ({ news_posts, academic_posts, life_posts }) => {
         ))}
       </div>
       <br/>
-      <center><h4>Life</h4></center>
+      <center><h4>Life & Past News</h4></center>
       <hr/>
       <div className={styles.container}>
         {life_posts.map((post) => (

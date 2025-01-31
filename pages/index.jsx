@@ -20,11 +20,14 @@ export default function HomePage() {
                 <div className={styles.content}>
                   <h4>Interest Point</h4>
                   <div className={styles.tags}>
-                    <span key='Research' className='Research'>
+                    <span key='UQ' className='UQ'>
                       Uncertainty Quantification
                     </span>
-                    <span key='LLMs' className='LLMs'>
-                      LLMs
+                    <span key='MLsys' className='MLsys'>
+                      Machine Learning System
+                    </span>
+                    <span key='NLP' className='NLP'>
+                      NLP
                     </span>
                     <span key='GenAI' className='GenAI'>
                       Generative AI
@@ -32,26 +35,23 @@ export default function HomePage() {
                     <span key='PyTorch' className='PyTorch'>
                       PyTorch
                     </span>
-                    <span key='Computer-Vision' className='Computer-Vision'>
-                      PU'ER(普洱)
+                    <span key='RL' className='RL'>
+                      Reinforcement Learning
                     </span>
-                    <span key='Apache-Spark' className='Apache-Spark'>
+                    <span key='HPC' className='HPC'>
                       High Performance Computing
                     </span>
-                    <span key='SQL' className='SQL'>
+                    <span key='CUDA' className='CUDA'>
                       CUDA
-                    </span>
-                    <span key='Tensorflow' className='Tensorflow'>
-                      Machine Learning System
                     </span>
                     <span key='Software-Design' className='Software-Design'>
                       Software Architecture
                     </span>
-                    <span key='MIM' className='MIM'>
-                      Ph.Gemult(心学研究)
+                    <span key='PUER' className='PUER'>
+                      PU'ER(普洱)
                     </span>
-                    <span key='Bots' className='Bots'>
-                      Multi-Agent
+                    <span key='Gemult' className='Gemult'>
+                      Ph.Gemult(心学研究)
                     </span>
                   </div>
                 </div>

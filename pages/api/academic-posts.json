@@ -1,38 +1,19 @@
 [
   {
     "id": 1,
-    "name": "Conformal Prediction",
-    "image": "./prompt_compression.jpeg",
-    "description": "Prompt compression",
-    "tags": ["LLM application", "MicroSoft"],
-    "source_code": "https://github.com/MartinRepo",
+    "name": "Stay tuned for updates!",
+    "image": "./waiting.jpg",
+    "description": "updates coming soon",
+    "tags": [],
     "fullText": "../aboutMe"
   },
   {
     "id": 2,
-    "name": "LLM Benchmarking for Reading BioMed literatures",
-    "image": "./benchmark_llm.jpeg",
-    "description": "Benchmarking various LLMs, based on HPC",
-    "tags": ["HPC", "PyTorch", "Generative-AI"],
-    "source_code": "https://github.com/MartinRepo",
-    "fullText": "../aboutMe"
-  },
-  {
-    "id": 3,
-    "name": "Llama3.cpp Local Deployment",
+    "name": "Llama3.cpp Local Deployment & LLM Quantisation Research",
     "image": "./llama-cpp.png",
-    "description": "A note of local deployment",
+    "description": "A note of Quantised LLM local deployment",
     "tags": ["Llama-cpp", "PyTorch", "Generative-AI"],
-    "source_code": "https://github.com/MartinRepo",
-    "fullText": "../aboutMe"
-  },
-  {
-    "id": 4,
-    "name": "LLM Quantisation Research",
-    "image": "./quantisation.jpeg",
-    "description": "Various of quantisation bit comparisons",
-    "tags": ["HPC", "PyTorch", "LLM-Quantisation"],
-    "source_code": "https://github.com/MartinRepo",
-    "fullText": "../aboutMe"
+    "source_code": "https://github.com/MartinRepo/llm-testbed",
+    "fullText": "https://martinspace.top/zh/llama3.cpp%E6%9C%AC%E5%9C%B0cpu%E9%83%A8%E7%BD%B2%E5%A4%A7%E6%A8%A1%E5%9E%8B/"
   }
 ]

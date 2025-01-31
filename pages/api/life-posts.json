@@ -1,10 +1,26 @@
 [
   {
     "id": 1,
+    "name": "N8CIR Internship🎉",
+    "image": "./n8cir.png",
+    "description": "My first internship in UK!",
+    "tags": ["Llama-cpp", "PyTorch", "Generative-AI"],
+    "fullText": "../aboutMe"
+  },
+  {
+    "id": 2,
+    "name": "Graduation Ceremony",
+    "image": "./graduation.jpg",
+    "description": "Honours! First Class! Congrats!",
+    "tags": ["life"],
+    "fullText": "../aboutMe"
+  },
+  {
+    "id": 3,
     "name": "UEFA EURO 2024",
     "image": "./euro2024.jpg",
-    "description": "A note of local deployment",
-    "tags": ["Llama-cpp", "PyTorch", "Generative-AI"],
+    "description": "F**king England",
+    "tags": ["life"],
     "fullText": "../aboutMe"
   }
 ]
