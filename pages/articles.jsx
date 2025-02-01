@@ -17,7 +17,6 @@ const ArticlesPage = ({ articles }) => {
                 <p><strong>Conference:</strong> {article.conference}</p>
               )}
               <p><strong>Year:</strong> {article.year}</p>
-              <p><strong>Likes:</strong> {article.likes}</p>
               <div className={styles.cta}>
                 <a
                   href={article.link}

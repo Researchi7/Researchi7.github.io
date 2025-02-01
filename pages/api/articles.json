@@ -1,32 +1,42 @@
 [
   {
     "id": 1,
+    "title": "From RNN to Transformers",
+    "year": "2025",
+    "abstract": "",
+    "link": "https://martinspace.top/zh/nluplus/"
+  },
+  {
+    "id": 2,
+    "title": "Reinforcement Learning",
+    "year": "2025",
+    "abstract": "",
+    "link": "https://martinspace.top/zh/rl-note/"
+  },
+  {
+    "id": 3,
     "title": "Conformal Prediction",
-    "likes": 2,
     "year": 2025,
     "abstract": "Something about uncertainty quantification",
     "link": "https://scholar.google.com/"
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "Llama-3-70B Quatisation Note",
-    "likes": 2,
     "year": 2024,
     "abstract": "大模型量化工作笔记",
     "link": "https://scholar.google.com/"
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "N8CIR Bede Internship Note",
-    "likes": 2,
     "year": 2024,
     "abstract": "实习工作笔记",
     "link": "https://scholar.google.com/"
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "饮茶笔记",
-    "likes": 15,
     "year": 2023,
     "abstract": "普洱入门玩家...",
     "link": "https://scholar.google.com/"
