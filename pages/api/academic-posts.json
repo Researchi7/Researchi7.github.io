@@ -14,6 +14,6 @@
     "description": "A note of Quantised LLM local deployment",
     "tags": ["Llama-cpp", "PyTorch", "Generative-AI"],
     "source_code": "https://github.com/MartinRepo/llm-testbed",
-    "fullText": "https://martinspace.top/zh/llama3.cpp%E6%9C%AC%E5%9C%B0cpu%E9%83%A8%E7%BD%B2%E5%A4%A7%E6%A8%A1%E5%9E%8B/"
+    "fullText": "https://martinspace.top/zh/llamacpp-tutorial/"
   }
 ]
