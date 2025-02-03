@@ -2,43 +2,53 @@
   {
     "id": 1,
     "title": "From RNN to Transformers",
+    "conference": "Martin-Space Preprint",
     "year": "2025",
-    "abstract": "",
-    "link": "https://martinspace.top/zh/nluplus/"
+    "abstract": "How to make machines understand natural language? Take this Journey - Building a Knowledge Hierachy for Large Language Models from the Scratch!",
+    "zhlink": "https://martinspace.top/zh/nluplus/"
   },
   {
     "id": 2,
     "title": "Reinforcement Learning",
+    "conference": "Martin-Space Preprint",
     "year": "2025",
     "abstract": "",
-    "link": "https://martinspace.top/zh/rl-note/"
+    "zhlink": "https://martinspace.top/zh/rl-note/"
   },
   {
     "id": 3,
-    "title": "Conformal Prediction",
-    "year": 2025,
-    "abstract": "Something about uncertainty quantification",
-    "link": "https://scholar.google.com/"
+    "title": "Accelerated Fine-tuning Research",
+    "conference": "Martin-Space Preprint",
+    "year": "2025",
+    "abstract": "Recently, I have been contributing to ServerlessLLM, a rising star product in the field of machine learning systems. My contribution is mainly about fine-tuning on pre-trained models. How to speed up the fine-tuning process? How to deploy multiple fine-tuned versions at scale? This is an interesting question.",
+    "zhlink": "https://martinspace.top/zh/mlsys-ft/"
   },
   {
     "id": 4,
-    "title": "Llama-3-70B Quatisation Note",
-    "year": 2024,
-    "abstract": "大模型量化工作笔记",
-    "link": "https://scholar.google.com/"
+    "title": "Conformal Prediction",
+    "year": 2025,
+    "abstract": "Something about uncertainty quantification",
+    "zhlink": "https://scholar.google.com/"
   },
   {
     "id": 5,
-    "title": "N8CIR Bede Internship Note",
+    "title": "Llama-3-70B Quatisation Note",
     "year": 2024,
-    "abstract": "实习工作笔记",
-    "link": "https://scholar.google.com/"
+    "abstract": "大模型量化工作笔记",
+    "zhlink": "https://scholar.google.com/"
   },
   {
     "id": 6,
+    "title": "N8CIR Bede Internship Note",
+    "year": 2024,
+    "abstract": "实习工作笔记",
+    "zhlink": "https://scholar.google.com/"
+  },
+  {
+    "id": 7,
     "title": "饮茶笔记",
     "year": 2023,
-    "abstract": "普洱入门玩家...",
-    "link": "https://scholar.google.com/"
+    "abstract": "A story about a Pu'er Tea beginner player",
+    "zhlink": "https://scholar.google.com/"
   }
 ]

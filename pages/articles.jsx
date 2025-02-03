@@ -19,12 +19,12 @@ const ArticlesPage = ({ articles }) => {
               <p><strong>Year:</strong> {article.year}</p>
               <div className={styles.cta}>
                 <a
-                  href={article.link}
+                  href={article.zhlink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={styles.underline}
                 >
-                  Read More
+                  Read More (CN)
                 </a>
               </div>
             </div>
