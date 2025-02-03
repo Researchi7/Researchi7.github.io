@@ -52,7 +52,7 @@ const GithubPage = ({ repos, user }) => {
           </div>
         </div>
       </a>
-      <div> <center><h3>My Most Popular Repositories on Github</h3></center></div>
+      <div> <center><h3>My Contributed Repositories on Github</h3></center></div>
       <div className={styles.container}>
         {repos.map((repo) => (
           <RepoCard key={repo.id} repo={repo} />
@@ -87,14 +87,15 @@ export async function getStaticProps() {
   const user = await userRes.json();
 
   const repoRes = await fetch(
-    `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/repos?per_page=100`,
+    `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/repos?per_page=1`,
     {
       headers: {
         Authorization: `token ${process.env.GITHUB_API_KEY}`,
       },
     }
   );
-  const additionalRepoRes = await fetch(
+  
+  const casibaseRepoRes = await fetch(
     `https://api.github.com/repos/casibase/casibase`,
     {
       headers: {
@@ -102,17 +103,27 @@ export async function getStaticProps() {
       },
     }
   );
+  const serverlessLLMRepoRes = await fetch(
+    `https://api.github.com/repos/serverlessllm/serverlessllm`,
+    {
+      headers: {
+        Authorization: `token ${process.env.GITHUB_API_KEY}`,
+      },
+    }
+  );
   let repos = await repoRes.json();
-  const additionalRepo = await additionalRepoRes.json();
+  const casibaseRepo = await casibaseRepoRes.json();
+  const serverlessLLM = await serverlessLLMRepoRes.json();
 
   // Add the specified repo explicitly
-  repos.push(additionalRepo);
+  repos.push(casibaseRepo);
+  repos.push(serverlessLLM)
   repos = repos
     .sort((a, b) => {
-      if (a.html_url.includes('EESTech') || a.html_url.includes('COSC') || a.html_url.includes('/drkostas/drkostas')) {
+      if (a.html_url.includes('EESTech') || a.html_url.includes('COSC') || a.html_url.includes('/martinrepo/martinrepo')) {
         return b
       }
-      if (b.html_url.includes('EESTech') || b.html_url.includes('COSC') || b.html_url.includes('/drkostas/drkostas')) {
+      if (b.html_url.includes('EESTech') || b.html_url.includes('COSC') || b.html_url.includes('/martinrepo/martinrepo')) {
         return a
       }
 
