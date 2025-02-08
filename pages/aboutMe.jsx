@@ -5,8 +5,8 @@ const aboutMePage = () => {
         <div className={styles.container}>
             <h1>Chi Xing</h1>
             <h3>🪐 An underlying thinker 🤔️</h3>
-            <p>Graduated from Liverpool Uni (Honours First Class in Computer Science)</p>
-            <p>24 Fall Artificial Intelligence Master in Edinburgh Uni</p>
+            <p>BSc Computer Science at the University of Liverpool (Honors 1st class)</p>
+            <p>MSc Artificial Intelligence at the University of Edinburgh</p>
             <p>⛰️ My Pathway ⛰️</p>
             <ul className={styles.pathwayList}>
                 <li>2024 Autumn &#124; Start contributing to <a href="https://github.com/ServerlessLLM/ServerlessLLM" target="_blank"
@@ -28,9 +28,9 @@ const aboutMePage = () => {
             </ul>
             <p>✨ My Interest Points ✨</p>
             <ul className={styles.pathwayList}>
-                <li>Uncertainty Quantification</li>
                 <li>Machine Learning System</li>
-                <li>Machine Learning and Pattern Recognition</li>
+                <li>Uncertainty Quantification</li>
+                <li>Machine Learning Model Architectures</li>
             </ul>
         </div>
     );
