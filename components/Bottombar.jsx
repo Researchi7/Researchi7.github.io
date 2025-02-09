@@ -13,7 +13,7 @@ const Bottombar = () => {
     <footer className={styles.bottomBar}>
       <div className={styles.container}>
         <a
-          href="https://github.com/MartingaleXing/MartingaleXing.github.io"
+          href="https://github.com/Researchi7/Researchi7.github.io"
           target="_blank"
           rel="noreferrer noopener"
           className={styles.section}
@@ -41,7 +41,7 @@ const Bottombar = () => {
             <p>Github</p>
           </div>
         </a>
-        <a href="https://scholar.google.com" target="_blank" rel="noopener">
+        <a href="https://scholar.google.com/citations?user=deO0nvUAAAAJ&hl=en" target="_blank" rel="noopener">
           <div className={styles.section}>
             <ScholarIcon className={styles.icon} />
             <p>Scholar</p>
