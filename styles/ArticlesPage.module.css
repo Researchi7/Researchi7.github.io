@@ -2,28 +2,36 @@
 .card {
   background: var(--article-bg);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   border-radius: 20px;
   cursor: pointer;
-  width: 100%; /* Make the card full width */
-  margin-bottom: 0.5rem; /* Add some space between cards */
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
 }
 
 .card:hover {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
+
 .content {
-  padding: 1rem;
-  border-radius: 0 0 20px 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
 }
 
 .content p {
   font-size: 0.8rem;
   margin-top: 0.5rem;
+  word-wrap: break-word; /* 确保长单词也会换行 */
+  line-height: 1.4;
 }
 
 .card p {
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.8rem;
 }
 
 .card h3 {
@@ -70,4 +78,16 @@
 
 .underline:hover {
   background-size: 100% 88%;
+}
+
+.coverImage {
+  flex-shrink: 0;
+  margin-left: 20px; /* 让图片有一些间距 */
+}
+
+.coverImage img {
+  width: 220px; /* 你可以调整大小 */
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
 }

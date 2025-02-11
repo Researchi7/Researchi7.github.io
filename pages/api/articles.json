@@ -2,26 +2,28 @@
   {
     "id": 1,
     "title": "From RNN to Transformers",
-    "conference": "Martin-Space Preprint",
+    "conference": "Martin-Space Blog",
+    "cover_image": "whatisrnn.jpg",
     "year": "2025",
     "abstract": "How to make machines understand natural language? Take this Journey - Building a Knowledge Hierachy for Large Language Models from the Scratch!",
     "zhlink": "https://martinspace.top/zh/nluplus/"
   },
   {
     "id": 2,
-    "title": "Reinforcement Learning",
-    "conference": "Martin-Space Preprint",
-    "year": "2025",
-    "abstract": "",
-    "zhlink": "https://martinspace.top/zh/rl-note/"
-  },
-  {
-    "id": 3,
     "title": "Accelerated Fine-tuning Research",
-    "conference": "Martin-Space Preprint",
+    "conference": "Martin-Space Blog",
+    "cover_image": "mlsys.jpg",
     "year": "2025",
     "abstract": "Recently, I have been contributing to ServerlessLLM, a rising star product in the field of machine learning systems. My contribution is mainly about fine-tuning on pre-trained models. How to speed up the fine-tuning process? How to deploy multiple fine-tuned versions at scale? This is an interesting question.",
     "zhlink": "https://martinspace.top/zh/mlsys-ft/"
+  },
+  {
+    "id": 3,
+    "title": "Reinforcement Learning",
+    "conference": "Martin-Space Blog",
+    "year": "2025",
+    "abstract": "",
+    "zhlink": "https://martinspace.top/zh/rl-note/"
   },
   {
     "id": 4,

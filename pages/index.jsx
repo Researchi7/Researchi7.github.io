@@ -20,17 +20,17 @@ export default function HomePage() {
                 <div className={styles.content}>
                   <h4>Interest Point</h4>
                   <div className={styles.tags}>
-                    <span key='UQ' className='UQ'>
-                      Uncertainty Quantification
-                    </span>
                     <span key='MLsys' className='MLsys'>
                       Machine Learning System
+                    </span>
+                    <span key='UQ' className='UQ'>
+                      Uncertainty Quantification
                     </span>
                     <span key='NLP' className='NLP'>
                       NLP
                     </span>
-                    <span key='GenAI' className='GenAI'>
-                      Generative AI
+                    <span key='DiffusionModels' className='DiffusionModels'>
+                      Diffusion models
                     </span>
                     <span key='PyTorch' className='PyTorch'>
                       PyTorch

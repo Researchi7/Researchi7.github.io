@@ -4,9 +4,9 @@ import styles from '../styles/ArticlesPage.module.css';
 const ArticlesPage = ({ articles }) => {
   return (
     <>
-      <h3>My Literary Notes</h3>
-      <br/>
-      <hr/>
+      <h3>Chi's Literary Notes</h3>
+      <br />
+      <hr />
       <div className={styles.container}>
         {articles.map((article) => (
           <div key={article.id} className={styles.card}>
@@ -28,12 +28,19 @@ const ArticlesPage = ({ articles }) => {
                 </a>
               </div>
             </div>
+            {article.cover_image && (
+              <div className={styles.coverImage}>
+                <img src={`/cover_images/${article.cover_image}`} alt={article.title} />
+              </div>
+            )}
           </div>
         ))}
       </div>
     </>
   );
 };
+
+
 
 export async function getStaticProps() {
   const articles = getArticles();

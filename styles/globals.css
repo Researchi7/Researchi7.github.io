@@ -297,11 +297,11 @@
   background: rgba(43, 233, 173, 0.25);
 }
 
-.GenAI {
+.DiffusionModels {
   border: 0.1rem solid rgb(43, 113, 233);
 }
 
-.GenAI:hover {
+.DiffusionModels:hover {
   background: rgba(43, 84, 233, 0.25);
 }
 
