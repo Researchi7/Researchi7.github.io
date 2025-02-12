@@ -24,9 +24,21 @@ const ArticlesPage = ({ articles }) => {
                   rel="noopener noreferrer"
                   className={styles.underline}
                 >
-                  Read More (CN)
+                  Read More (cn)
                 </a>
               </div>
+              {article.enlink && (
+                <div className={styles.cta}>
+                <a
+                  href={article.enlink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.underline}
+                >
+                  Read More (en)
+                </a>
+              </div>
+              )}
             </div>
             {article.cover_image && (
               <div className={styles.coverImage}>

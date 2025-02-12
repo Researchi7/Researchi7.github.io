@@ -1,53 +1,63 @@
 [
   {
     "id": 1,
+    "title": "Preference Alignment on Diffusion Model: A Comprehensive Survey for Image Generation and Editing",
+    "conference": "Arxiv Pre-print",
+    "cover_image": "dmrl-survey.png",
+    "year": "Feb, 2025",
+    "abstract": "The integration of preference alignment with diffusion models (DMs) has emerged as a transformative approach to enhance image generation and editing capabilities. Although integrating diffusion models with preference alignment strategies poses significant challenges for novices at this intersection, comprehensive and systematic reviews of this subject are still notably lacking. To bridge this gap, this paper extensively surveys preference alignment with diffusion models in image generation and editing. First, we systematically review cutting-edge optimization techniques such as reinforcement learning with human feedback (RLHF), direct preference optimization (DPO), and others, highlighting their pivotal role in aligning preferences with DMs. Then, we thoroughly explore the applications of aligning preferences with DMs in autonomous driving, medical imaging, robotics, and more. Finally, we comprehensively discuss the challenges of preference alignment with DMs. To our knowledge, this is the first survey centered on preference alignment with DMs, providing insights to drive future innovation in this dynamic area.",
+    "zhlink": "https://martinspace.top/zh/dmrl-survey/",
+    "enlink": "https://martinspace.top/en/post_en/tech_en/dmrl-survey/"
+  },
+  {
+    "id": 2,
     "title": "From RNN to Transformers",
     "conference": "Martin-Space Blog",
     "cover_image": "whatisrnn.jpg",
-    "year": "2025",
+    "year": "Jan, 2025",
     "abstract": "How to make machines understand natural language? Take this Journey - Building a Knowledge Hierachy for Large Language Models from the Scratch!",
     "zhlink": "https://martinspace.top/zh/nluplus/"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Accelerated Fine-tuning Research",
     "conference": "Martin-Space Blog",
     "cover_image": "mlsys.jpg",
-    "year": "2025",
+    "year": "Jan, 2025",
     "abstract": "Recently, I have been contributing to ServerlessLLM, a rising star product in the field of machine learning systems. My contribution is mainly about fine-tuning on pre-trained models. How to speed up the fine-tuning process? How to deploy multiple fine-tuned versions at scale? This is an interesting question.",
     "zhlink": "https://martinspace.top/zh/mlsys-ft/"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Reinforcement Learning",
     "conference": "Martin-Space Blog",
-    "year": "2025",
+    "year": "Jan, 2025",
     "abstract": "",
     "zhlink": "https://martinspace.top/zh/rl-note/"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Conformal Prediction",
     "year": 2025,
     "abstract": "Something about uncertainty quantification",
     "zhlink": "https://scholar.google.com/"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Llama-3-70B Quatisation Note",
     "year": 2024,
     "abstract": "大模型量化工作笔记",
     "zhlink": "https://scholar.google.com/"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "N8CIR Bede Internship Note",
     "year": 2024,
     "abstract": "实习工作笔记",
     "zhlink": "https://scholar.google.com/"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "饮茶笔记",
     "year": 2023,
     "abstract": "A story about a Pu'er Tea beginner player",
