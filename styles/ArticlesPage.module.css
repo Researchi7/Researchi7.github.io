@@ -81,13 +81,23 @@
 }
 
 .coverImage {
+  width: 25%;
   flex-shrink: 0;
   margin-left: 20px; /* 让图片有一些间距 */
 }
 
 .coverImage img {
-  width: 220px; /* 你可以调整大小 */
+  max-width: 100%; /* 你可以调整大小 */
   height: auto;
   border-radius: 5px;
   object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .coverImage {
+    display: none;
+  }
+  .content{
+    max-width: 100%;
+  }
 }
