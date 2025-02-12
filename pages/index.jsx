@@ -29,7 +29,7 @@ export default function HomePage() {
                     <span key='NLP' className='NLP'>
                       NLP
                     </span>
-                    <span key='DiffusionModels' className='DiffusionModels'>
+                    <span key='Diffusion-Models' className='Diffusion-Models'>
                       Diffusion models
                     </span>
                     <span key='PyTorch' className='PyTorch'>

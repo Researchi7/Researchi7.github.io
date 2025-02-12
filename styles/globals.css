@@ -297,11 +297,11 @@
   background: rgba(43, 233, 173, 0.25);
 }
 
-.DiffusionModels {
+.Diffusion-Models {
   border: 0.1rem solid rgb(43, 113, 233);
 }
 
-.DiffusionModels:hover {
+.Diffusion-Models:hover {
   background: rgba(43, 84, 233, 0.25);
 }
 
@@ -401,11 +401,11 @@
   background: rgba(189, 100, 100, 0.25);
 }
 
-.AWS {
+.Preference-Alignment {
   border: 0.1rem solid rgb(159, 161, 42);
 }
 
-.AWS:hover {
+.Preference-Alignment:hover {
   background: rgba(159, 161, 42, 0.25);
 }
 
