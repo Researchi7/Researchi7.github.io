@@ -22,11 +22,12 @@ const ResumePage = () => {
       </h3>
       <br />
       <div className={styles.pdfContainer}>
-        <Document file={myResume} onLoadSuccess={onDocumentLoadSuccess}>
+        {/* <Document file={myResume} onLoadSuccess={onDocumentLoadSuccess}>
           {Array.from(new Array(numPages), (el, index) => (
             <Page key={`page_${index + 1}`} pageIndex={index} scale={1.5} renderMode="svg" />
           ))}
-        </Document>
+        </Document> */}
+        <iframe src="https://gravel-carpenter-ef6.notion.site/ebd/15365853615d8081ae72e9a4976b2ca9" width="100%" height="800" frameborder="0" allowfullscreen />
       </div>
       <br />
       <div className={styles.alert}>
