@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "name": "2025 First Survey 🎉",
+    "image": "./cover_images/dmrl-survey.png",
+    "description": "I would appreciate any citations!",
+    "tags": ["Diffusion-Models", "Preference-Alignment"],
+    "fullText": "https://martinspace.top/en/post_en/tech_en/dmrl-survey/"
+  },
+  {
+    "id": 2,
     "name": "Stay tuned for updates!",
     "image": "./waiting.jpg",
     "description": "updates coming soon",
