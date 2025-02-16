@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Preference Alignment on Diffusion Model: A Comprehensive Survey for Image Generation and Editing",
-    "conference": "Arxiv Pre-print",
+    "conference": "IJCAI 2025 (Under Review)",
     "cover_image": "dmrl-survey.png",
     "year": "Feb, 2025",
     "abstract": "The integration of preference alignment with diffusion models (DMs) has emerged as a transformative approach to enhance image generation and editing capabilities. Although integrating diffusion models with preference alignment strategies poses significant challenges for novices at this intersection, comprehensive and systematic reviews of this subject are still notably lacking. To bridge this gap, this paper extensively surveys preference alignment with diffusion models in image generation and editing. First, we systematically review cutting-edge optimization techniques such as reinforcement learning with human feedback (RLHF), direct preference optimization (DPO), and others, highlighting their pivotal role in aligning preferences with DMs. Then, we thoroughly explore the applications of aligning preferences with DMs in autonomous driving, medical imaging, robotics, and more. Finally, we comprehensively discuss the challenges of preference alignment with DMs. To our knowledge, this is the first survey centered on preference alignment with DMs, providing insights to drive future innovation in this dynamic area.",
@@ -20,7 +20,7 @@
   },
   {
     "id": 3,
-    "title": "Accelerated Fine-tuning Research",
+    "title": "Serverless/Accelerated Fine-tuning Research",
     "conference": "Martin-Space Blog",
     "cover_image": "mlsys.jpg",
     "year": "Jan, 2025",
@@ -46,14 +46,14 @@
     "id": 6,
     "title": "Llama-3-70B Quatisation Note",
     "year": 2024,
-    "abstract": "大模型量化工作笔记",
+    "abstract": "LLM quantisation work note",
     "zhlink": "https://scholar.google.com/"
   },
   {
     "id": 7,
     "title": "N8CIR Bede Internship Note",
     "year": 2024,
-    "abstract": "实习工作笔记",
+    "abstract": "Blog of my internship",
     "zhlink": "https://scholar.google.com/"
   },
   {
