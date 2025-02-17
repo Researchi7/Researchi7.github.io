@@ -32,7 +32,7 @@ const ResumePage = () => {
       <br />
       <div className={styles.alert}>
         <h5>Only download available</h5>
-        <h5>Preview will be available on PC</h5>
+        <h5>Preview is available <a className={styles.underline} href="https://gravel-carpenter-ef6.notion.site/ebd/15365853615d8081ae72e9a4976b2ca9">here</a></h5>
       </div>
     </center>
   );

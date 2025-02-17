@@ -7,7 +7,7 @@
     "year": "Feb, 2025",
     "abstract": "The integration of preference alignment with diffusion models (DMs) has emerged as a transformative approach to enhance image generation and editing capabilities. Although integrating diffusion models with preference alignment strategies poses significant challenges for novices at this intersection, comprehensive and systematic reviews of this subject are still notably lacking. To bridge this gap, this paper extensively surveys preference alignment with diffusion models in image generation and editing. First, we systematically review cutting-edge optimization techniques such as reinforcement learning with human feedback (RLHF), direct preference optimization (DPO), and others, highlighting their pivotal role in aligning preferences with DMs. Then, we thoroughly explore the applications of aligning preferences with DMs in autonomous driving, medical imaging, robotics, and more. Finally, we comprehensively discuss the challenges of preference alignment with DMs. To our knowledge, this is the first survey centered on preference alignment with DMs, providing insights to drive future innovation in this dynamic area.",
     "zhlink": "https://martinspace.top/zh/dmrl-survey/",
-    "enlink": "https://martinspace.top/en/post_en/tech_en/dmrl-survey/"
+    "enlink": "https://arxiv.org/abs/2502.07829"
   },
   {
     "id": 2,
