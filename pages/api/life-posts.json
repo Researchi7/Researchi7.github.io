@@ -5,7 +5,7 @@
     "image": "./n8cir.png",
     "description": "My first internship in UK!",
     "tags": ["Llama-cpp", "PyTorch", "Generative-AI"],
-    "fullText": "../aboutMe"
+    "fullText": "https://www.liverpool.ac.uk/it/blog/meet-our-team/chi-xing"
   },
   {
     "id": 2,
