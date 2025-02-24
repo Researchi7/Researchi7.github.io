@@ -49,6 +49,10 @@
   margin-bottom: 0.5rem;
 }
 
+.chinese {
+  display: inline;
+}
+
 .bio {
   width: max-content;
   color: #eee;
@@ -237,7 +241,10 @@
   .name {
     font-size: 2rem;    
     margin-bottom: 2rem;
+  }
 
+  .chinese {
+    display: block;
   }
 
   .bio {

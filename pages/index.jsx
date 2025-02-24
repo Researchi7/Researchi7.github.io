@@ -13,7 +13,7 @@ export default function HomePage() {
         </div>
         <div className={styles.foreground}>
           <div className={styles.content}>
-            <h1 className={styles.name}>Chi Xing</h1>
+            <h1 className={styles.name}>Chi Xing<span className={styles.chinese}>「邢 篪」</span></h1>
             <h6 className={styles.bio}>Problem Solver</h6>
             <div className={styles.cardContainer}>
               <div className={styles.card}>
@@ -23,20 +23,23 @@ export default function HomePage() {
                     <span key='MLsys' className='MLsys'>
                       Machine Learning System
                     </span>
-                    <span key='UQ' className='UQ'>
-                      Uncertainty Quantification
+                    <span key='Preference-Alignment' className='Preference-Alignment'>
+                      Preference Alignment
                     </span>
                     <span key='NLP' className='NLP'>
                       NLP
                     </span>
-                    <span key='Diffusion-Models' className='Diffusion-Models'>
-                      Diffusion models
+                    <span key='Distributed-System' className='Distributed-System'>
+                      Distributed Computer System
                     </span>
-                    <span key='PyTorch' className='PyTorch'>
-                      PyTorch
+                    <span key='Computer-Vision' className='Computer-Vision'>
+                      Computer Vision
                     </span>
                     <span key='RL' className='RL'>
                       Reinforcement Learning
+                    </span>
+                    <span key='PyTorch' className='PyTorch'>
+                      PyTorch
                     </span>
                     <span key='HPC' className='HPC'>
                       High Performance Computing
