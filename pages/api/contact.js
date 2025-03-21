@@ -5,18 +5,15 @@ const notion = new Client({
 });
 
 export default async (req, res) => {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-
   if (req.method === 'OPTIONS') {
+    console.log("API Received Request:", req.body);
     return res.status(200).end();
   }
   if (req.method !== 'POST') {
     return res.status(405).json({ msg: 'Only POST requests are allowed' });
   }
   try {
-    const { name, email, subject, message } = JSON.parse(req.body);
+    const { name, email, subject, message } = req.body;
     await notion.pages.create({
       parent: {
         database_id: process.env.NOTION_DATABASE_ID,
