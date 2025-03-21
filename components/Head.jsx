@@ -17,8 +17,8 @@ const CustomHead = ({ title }) => {
         property="og:description"
         content="Chi Xing's Profolio."
       />
-      <meta property="og:image" content="https://imgur.com/YTNNknY.png" />
-      <meta property="og:url" content="https://gkos.dev" />
+      <meta property="og:image" content="https://imgur.com/a/pJBU1yJ" />
+      <meta property="og:url" content="https://openchi.life" />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
   );
