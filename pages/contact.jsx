@@ -9,10 +9,6 @@ const ContactPage = () => {
   const [message, setMessage] = useState('');
 
   const submitForm = async (e) => {
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-
     e.preventDefault();
     console.log(`${process.env.NEXT_PUBLIC_API_URL}/contact`)
     const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/contact`, {
