@@ -9,8 +9,13 @@ const ContactPage = () => {
   const [message, setMessage] = useState('');
 
   const submitForm = async (e) => {
+    // res.setHeader('Access-Control-Allow-Origin', '*');
+    // res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+    // res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
     e.preventDefault();
-    const res = await fetch("/api/contact", {
+    console.log(`${process.env.NEXT_PUBLIC_API_URL}/contact`)
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/contact`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
