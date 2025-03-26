@@ -3,6 +3,7 @@ import styles from '../styles/ResumePage.module.css';
 import { pdfjs, Document, Page } from 'react-pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 const myResume = './Chi_CV.pdf';
+const myResumeZh = './Chi_Xing_CV_zh.pdf'
 
 const ResumePage = () => {
   const [numPages, setNumPages] = useState(null);
@@ -16,7 +17,12 @@ const ResumePage = () => {
       <h3>
         Resume (
         <a href={myResume} className={styles.underline} download="ChiXing-CV.pdf">
-          Download
+          Download-en
+        </a>
+        )
+        (
+        <a href={myResumeZh} className={styles.underline} download="ChiXing-CV-zh.pdf">
+          Download-zh
         </a>
         )
       </h3>
