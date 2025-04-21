@@ -16,13 +16,13 @@ const ResumePage = () => {
     <center>
       <h3>
         Resume (
-        <a href={myResume} className={styles.underline} download="ChiXing-CV.pdf">
-          Download-en
+        <a href={myResume} className={styles.underline} target='_blank'>
+          en-GB
         </a>
         )
         (
-        <a href={myResumeZh} className={styles.underline} download="ChiXing-CV-zh.pdf">
-          Download-zh
+        <a href={myResumeZh} className={styles.underline} target='_blank'>
+          zh-CN
         </a>
         )
       </h3>
