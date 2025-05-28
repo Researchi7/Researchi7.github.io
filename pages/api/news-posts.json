@@ -9,10 +9,10 @@
   },
   {
     "id": 3,
-    "name": "Stay tuned for updates!",
-    "image": "./waiting.jpg",
-    "description": "updates coming soon",
-    "tags": [],
-    "fullText": "../aboutMe"
+    "name": "Serverless LoRA Fine Tuning & Serving",
+    "image": "./cover_images/serverlessllm.png",
+    "description": "Add LoRA fine-tuning and serving support for ServerlessLLM",
+    "tags": ["MLsys", "Preference-Alignment"],
+    "fullText": "https://github.com/ServerlessLLM/ServerlessLLM"
   }
 ]

@@ -20,12 +20,12 @@
   },
   {
     "id": 3,
-    "title": "Serverless/Accelerated Fine-tuning Research",
+    "title": "Serverless LoRA Fine-tuning",
     "conference": "Martin-Space Blog",
     "cover_image": "mlsys.jpg",
-    "year": "Jan, 2025",
-    "abstract": "Recently, I have been contributing to ServerlessLLM, a rising star product in the field of machine learning systems. My contribution is mainly about fine-tuning on pre-trained models. How to speed up the fine-tuning process? How to deploy multiple fine-tuned versions at scale? This is an interesting question.",
-    "zhlink": "https://martinspace.top/zh/mlsys-ft/"
+    "year": "May, 2025",
+    "abstract": "Recently, we explore how Low-Rank Adaptation (LoRA) fine-tuning can be effectively combined with serverless inference using the ServerlessLLM framework. It addresses key challenges of deploying large language models (LLMs) in serverless environments, such as cold start latency, GPU resource demands, and the need for stateful processing. ServerlessLLM mitigates these issues through chunk-based model loading, live migration, and startup-aware scheduling. LoRA's lightweight nature makes it ideal for serverless use—enabling quick adapter loading, dynamic switching, and cost-efficient deployment. The implementation supports transformers backend, adapter hot-swapping, and efficient resource use. Future plans include supporting full fine-tuning, adapter fusion, and a dedicated backend for tuning, aiming to make LLM deployment and experimentation more accessible to resource-constrained users.",
+    "zhlink": "https://martinspace.top/zh/serverless-lora/"
   },
   {
     "id": 4,
