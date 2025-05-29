@@ -20,7 +20,7 @@
   },
   {
     "id": 3,
-    "title": "Serverless LoRA Fine-tuning",
+    "title": "Serverless LoRA Serving",
     "conference": "Martin-Space Blog",
     "cover_image": "mlsys.jpg",
     "year": "May, 2025",

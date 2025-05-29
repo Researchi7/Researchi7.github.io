@@ -9,9 +9,9 @@
   },
   {
     "id": 3,
-    "name": "Serverless LoRA Fine Tuning & Serving",
+    "name": "Serverless LoRA Serving",
     "image": "./cover_images/serverlessllm.png",
-    "description": "Add LoRA fine-tuning and serving support for ServerlessLLM",
+    "description": "Add LoRA serving support for ServerlessLLM",
     "tags": ["MLsys", "Preference-Alignment"],
     "fullText": "https://github.com/ServerlessLLM/ServerlessLLM"
   }
