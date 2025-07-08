@@ -2,7 +2,7 @@ import { useState } from 'react';
 import styles from '../styles/ResumePage.module.css';
 import { pdfjs, Document, Page } from 'react-pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
-const myResume = './Chi_CV.pdf';
+const myResume = './Chi_Xing_CV_en.pdf';
 const myResumeZh = './Chi_Xing_CV_zh.pdf'
 
 const ResumePage = () => {
