@@ -29,7 +29,7 @@ const aboutMePage = () => {
             <p>✨ My Interest Points ✨</p>
             <ul className={styles.pathwayList}>
                 <li>Machine Learning System</li>
-                <li>Uncertainty Quantification</li>
+                <li>Distributed Pre-training & Post-training</li>
                 <li>Machine Learning Model Architectures</li>
             </ul>
         </div>
