@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/martin_x
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://openchi.life
+  * I am martin_x (https://keybase.io/martin_x) on keybase.
+  * I have a public key ASBcg1LRJikVANMjdr6F22BQRi95X9DPbbDx1v5xi80iugo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01205c8352d126291500d32376be85db6050462f795fd0cf6db0f1d6fe718bcd22ba0a",
+      "host": "keybase.io",
+      "kid": "01205c8352d126291500d32376be85db6050462f795fd0cf6db0f1d6fe718bcd22ba0a",
+      "uid": "bb767ae858117fd60a8e860535c33e19",
+      "username": "martin_x"
+    },
+    "merkle_root": {
+      "ctime": 1754517303,
+      "hash": "e53b52e79e5fc401efdaf49e3d2b16e35ced9de89ed298df6920e1a3388567324ed4d76f0ce5159eaa5e64aef0661d24f528807158e126d015df129747207ba5",
+      "hash_meta": "9e271bb41dbd8c59aeb629e013972e06734647c211adf524b66ebf7b0e61f8a5",
+      "seqno": 27002207
+    },
+    "service": {
+      "entropy": "ntvoaQd0Ko6bd/x6yJGOGuaK",
+      "hostname": "openchi.life",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.5.1"
+  },
+  "ctime": 1754517339,
+  "expire_in": 504576000,
+  "prev": "5af45b83c9c768e664d4e08d1a2bcb451c6665634b942f2110ecb6236a180da2",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgXINS0SYpFQDTI3a+hdtgUEYveV/Qz22w8db+cYvNIroKp3BheWxvYWTESpcCBcQgWvRbg8nHaOZk1OCNGivLRRxmZWNLlC8hEOy2I2oYDaLEIIRixPX6R4E387HQ3gfxUOboU2QdYG2c6Ut6+yosJG7EAgHCo3NpZ8RACsIAKv8ytMrew8sPyuETUMbf9+6V2Md/k73VmlfNCpZ3FiJ8HMtc5WfwM98lJyWqYxeLPAAXQatwc9SlCkxlDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJLD6ns/VrfYs0+0ctOxDr7fPeNsE2UFPGXwQ6juucOSo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/martin_x
+
+==================================================================
