@@ -4,7 +4,7 @@ https://keybase.io/martin_x
 
 I hereby claim:
 
-  * I am an admin of https://www.openchi.life
+  * I am an admin of https://openchi.life
   * I am martin_x (https://keybase.io/martin_x) on keybase.
   * I have a public key ASBcg1LRJikVANMjdr6F22BQRi95X9DPbbDx1v5xi80iugo
 
@@ -20,14 +20,14 @@ To do so, I am signing this object:
       "username": "martin_x"
     },
     "merkle_root": {
-      "ctime": 1754525092,
-      "hash": "e65fe431837fa211d441fabd2b11d801ca983d4e74218603641d9bf8a6ed3add3e7609127114dccbd7715bbc0a2d491c8aea73752f99531ec0c9a29edffcf5d5",
-      "hash_meta": "7e8db1c4d18c482262935e0159b1c0f99253b09885fba6f657981a4b7d73b605",
-      "seqno": 27002414
+      "ctime": 1754525194,
+      "hash": "f0c52d2470f4c46dcee81b88be30d352361b90f4d4d600e47756b6efdeaa7c25e6b8356e2c26735766936ebde902b9698a63abd09e9633a0f5b2379de15e9044",
+      "hash_meta": "667cc79a0bb72f503cd114c1619de310fdda442638b26b0c70e6882ee0c72fa0",
+      "seqno": 27002416
     },
     "service": {
-      "entropy": "FYkyEmZ0GWaRmAx2VBCdgOaq",
-      "hostname": "www.openchi.life",
+      "entropy": "iuZXoK3lAIOSP5yvm7jAyZv1",
+      "hostname": "openchi.life",
       "protocol": "https:"
     },
     "type": "web_service_binding",
@@ -37,16 +37,16 @@ To do so, I am signing this object:
     "name": "keybase.io go client",
     "version": "6.5.1"
   },
-  "ctime": 1754525107,
+  "ctime": 1754525211,
   "expire_in": 504576000,
-  "prev": "ea4221e22644587262d98f8477df9c7e7ba3ffd0a17317265896b7505bbc5517",
-  "seqno": 9,
+  "prev": "97dcb63cefae5db13dbb115206d524786abc5215dc1483c8deebdb5dd5c20285",
+  "seqno": 11,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgXINS0SYpFQDTI3a+hdtgUEYveV/Qz22w8db+cYvNIroKp3BheWxvYWTESpcCCcQg6kIh4iZEWHJi2Y+Ed9+cfnuj/9ChcxcmWJa3UFu8VRfEIHGRijNtq9kFqd4mUL5ZNzJqRMUfE9fTkKL4ERAEblAzAgHCo3NpZ8RAeskNmVMcHgTzNI+9qiW59f7iCTxbduCz1GKUF+lScvq0KNQBMg7ncNEFchGNpQGpXUv9q2Lc7w0PdPXoDOyiBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBpQb4oV8Pyvw43TlqWQMkIuzeUDrRYU07PVMqCAm74Co3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgXINS0SYpFQDTI3a+hdtgUEYveV/Qz22w8db+cYvNIroKp3BheWxvYWTESpcCC8Qgl9y2PO+uXbE9uxFSBtUkeGq8UhXcFIPI3uvbXdXCAoXEIKwDm6YeO5264reFBCqFNYjMVMRUENHVSfJa2eg2pk0bAgHCo3NpZ8RAgNYlavbhvp4mPdLDILOVO24px2tnrsctQYOk5QUGoCMRaLuqMvVswyBYzIc3pCYAikcpFaRzPAGml59h1ukQCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGQF0C0zuhMzeMXhGNpndg/Ms8b8FJ+u/jao1SFetZeOo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
