@@ -8,11 +8,19 @@
     "fullText": "https://arxiv.org/abs/2502.07829"
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "Serverless LoRA Serving",
     "image": "./cover_images/serverlessllm.png",
-    "description": "Add LoRA serving support for ServerlessLLM",
+    "description": "Add multiple LoRA adapters serving for ServerlessLLM eco-system",
     "tags": ["MLsys", "Preference-Alignment"],
     "fullText": "https://github.com/ServerlessLLM/ServerlessLLM"
+  },
+  {
+    "id": 3,
+    "name": "LoRA-as-a-Service (LaaS)",
+    "image": "./cover_images/serverlessllm.png",
+    "description": "Add PEFT LoRA fine-tuning backend for ServerlessLLM eco-system",
+    "tags": ["MLsys", "Preference-Alignment"],
+    "fullText": "https://github.com/ServerlessLLM/ServerlessLLM/pull/251"
   }
 ]
