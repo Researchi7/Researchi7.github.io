@@ -75,7 +75,7 @@ export default function HomePage() {
             <div className={styles.picture_boader}>
               <Image
                 className={styles.picture}
-                src="/me.jpeg"
+                src="/me.png"
                 width={300}
                 height={300}
                 alt="Chi's Picture"
