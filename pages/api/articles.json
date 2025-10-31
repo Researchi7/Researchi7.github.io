@@ -11,6 +11,15 @@
   },
   {
     "id": 2,
+    "title": "MuralXGAN: Text-Guided Dunhuang Mural Image Inpainting Framework",
+    "conference": "",
+    "cover_image": "arch.jpg",
+    "year": "May, 2025",
+    "abstract": "MuralXGAN, a novel text-guided image inpainting framework designed for the restoration of ancient Dunhuang murals. Traditional mural restoration approaches often rely on expert-drawn structural lines, which are labour-intensive and limited in availability. To address this, we propose a cross-modal system that uses large language models and a fine-tuned CLIP encoder to generate and process damage-related captions, enabling semantic and culturally informed restoration. Leveraging the MuralDH dataset, we implement a multi-stage architecture consisting of caption generation, cross-attention feature fusion, coarse inpainting, fine color correction, and adversarial refinement. To compensate for the lack of ground truth, we employ a random mask permutation strategy, improving model generalization. Quantitative experiments show that MuralXGAN outperforms a no-text baseline and state-of-the-art approaches in metrics such as PSNR, MAE, and SSIM.",
+    "enlink": "https://github.com/Mural-inpaint/MuralXGAN"
+  },
+  {
+    "id": 2,
     "title": "From RNN to Transformers",
     "conference": "Martin-Space Blog",
     "cover_image": "whatisrnn.jpg",

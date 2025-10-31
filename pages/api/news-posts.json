@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "2025 First Survey 🎉",
-    "image": "./cover_images/dmrl-survey.png",
+    "image": "./cover_images/framework_0208.png",
     "description": "I would appreciate any citations!",
     "tags": ["Diffusion-Models", "Preference-Alignment"],
     "fullText": "https://arxiv.org/abs/2502.07829"
