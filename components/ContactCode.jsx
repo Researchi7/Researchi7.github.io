@@ -3,8 +3,8 @@ import styles from '../styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'Email',
-    link: 'chi.xing2025@gmail.com',
-    href: 'mailto:chixing2025@gmail.com',
+    link: 'chi[dot]xing2025[at]gmail.com',
+    href: 'mailto:chi.xing2025@gmail.com',
   },
   {
     social: 'LinkedIn',
@@ -17,7 +17,7 @@ const contactItems = [
     href: 'https://github.com/MartinRepo',
   },
   {
-    social: 'Website',
+    social: 'Blog Site',
     link: 'martinspace.top',
     href: 'https://martinspace.top',
   },
