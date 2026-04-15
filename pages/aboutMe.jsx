@@ -5,10 +5,10 @@ const aboutMePage = () => {
         <div className={styles.container}>
             <h1>Chi Xing</h1>
             <h3>🪐 An underlying thinker 🤔️</h3>
-            <p>BSc Computer Science at the University of Liverpool (Honors 1st class)</p>
-            <p>MSc Artificial Intelligence at the University of Edinburgh</p>
+            <p>Deep Learning Engineer @ NVIDIA Shanghai</p>
             <p>⛰️ My Pathway ⛰️</p>
             <ul className={styles.pathwayList}>
+                <li>2026 Feb &#124; Deep Learning Engineer @ NVIDIA, working on <a href="https://github.com/ai-dynamo/dynamo" target="_blank" rel="noopener noreferrer" className={styles.underline}>NVIDIA Dynamo</a></li>
                 <li>2024 Autumn &#124; Start contributing to <a href="https://github.com/ServerlessLLM/ServerlessLLM" target="_blank"
                 rel="noopener noreferrer" className={styles.underline}>ServerlessLLM</a></li>
                 <li>2024 Summer &#124; <a href="https://n8cir.org.uk/" target="_blank"
@@ -29,8 +29,8 @@ const aboutMePage = () => {
             <p>✨ My Interest Points ✨</p>
             <ul className={styles.pathwayList}>
                 <li>Machine Learning System</li>
-                <li>Distributed Pre-training & Post-training</li>
-                <li>Machine Learning Model Architectures</li>
+                <li>Distributed Training & Inference</li>
+                <li>Deep Learning Model Architectures</li>
             </ul>
         </div>
     );
